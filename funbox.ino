@@ -87,6 +87,8 @@ void setup() {
 
   matrix.show();*/
 
+
+  // Change this line to dock new game
   activeGame = new Pong();
   activeGame->begin(&matrix);
 
